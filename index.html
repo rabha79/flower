@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flowers</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <header class="header">
+      <nav>
+        <div class="nav__logo"><a href="#">FLOWERS.</a></div>
+        <ul class="nav__links" id="nav-links">
+          <li class="links"><a href="#home">Home</a></li>
+          <li class="links"><a href="#about">About</a></li>
+          <li class="links"><a href="#bouquet">bouquets</a></li>
+          <li class="links"><a href="#shop">shop</a></li>
+          <li class="links"><a href="#review">review</a></li>
+        </ul>
+         <button class="btnLogin-popup"> login </button>
+      </nav>
+      <div class="wrapper">
+        <span class="icon-close"><i class="fa-solid fa-xmark"></i></span>
+        <div class="form-box login">
+          <h2>Login</h2>
+          <form action="#">
+            <div class="input-box">
+              <input type="email" required>
+              <label>Email</label>
+            </div>
+            <div class="input-box">
+              <input type="password" required>
+              <label>Password</label>
+            </div>
+            <div class="remember-forget">
+              <label><input type="checkbox">Remember Me</label>
+              <a href="#">Forget Password?</a>
+            </div>
+            <button type="submit" class="botn">Login</button>
+            <div class="login-register">
+              <p>Don't have an account?<a href="#" class="register-link">Register</a></p>
+            </div>
+          </form>
+        </div>
+        <div class="form-box register">
+          <h2>Registration</h2>
+          <form action="#">
+            <div class="input-box">
+              <input type="text" required>
+              <label>UserName</label>
+            </div>
+            <div class="input-box">
+              <input type="email" required>
+              <label>Email</label>
+            </div>
+            <div class="input-box">
+              <input type="password" required>
+              <label>Password</label>
+            </div>
+            <div class="remember-forget">
+              <label><input type="checkbox">I agree to the terms & conditions</label>
+              <a href="#"></a>
+            </div>
+            <button type="submit" class="botn">Register</button>
+            <div class="login-register">
+              <p>Already have an account?<a href="#" class="login-link"> Login</a></p>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="section__container header__container" id="home">
+        <h1>Flowers are the best gift that makes everyone happy</h1>
+        <p>
+          Roses have a positive influence and control on the issue of
+          psychological and emotional feelings and increasing their levels. This
+          makes a person sensitive and uses his feeling in the smallest details.
+        </p>
+        <form action="/">
+          <input type="text" placeholder="search about flowers" />
+          <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <a href="#about"><i class="fa-solid fa-angles-down"></i></a>
+      </div>
+    </header>
+    <section class="section__container about__container" id="about">
+      <div class="about__content">
+        <h2 class="section__header">why flowers are important</h2>
+        <p class="section__subheader">
+          Inhaling and seeing fresh flowers increases a person's ability to
+          endure pain and psychological suffering, and it also relieves a person
+          of depression and its disorders.
+        </p>
+        <div class="about__grid">
+          <div class="about__card">
+            <span
+              ><i class="fa-solid fa-trowel" style="color: #eecbff"></i
+            ></span>
+            <h4>The importance of growing roses</h4>
+            <p>
+              Roses are one of the most beautiful flowers ever, and they are a
+              symbol of sweet scent and beauty
+            </p>
+          </div>
+          <div class="about__card">
+            <span
+              ><i class="fa-solid fa-face-smile-beam" style="color: #eecbff"></i
+            ></span>
+            <h4>happiness</h4>
+            <p>
+              Roses have a positive influence and control on the issue of
+              psychological and emotional feelings and increasing their levels.
+              This makes a person sensitive and uses his feeling in the smallest
+              details
+            </p>
+          </div>
+          <div class="about__card">
+            <span><i class="fa-solid fa-gift" style="color: #eecbff"></i></span>
+            <h4>gifts & love</h4>
+            <p>
+              Most people buy roses as an expression of love, gratitude, or
+              greeting, and for every occasion there is a type of rose that
+              expresses it
+            </p>
+          </div>
+          <div class="about__card">
+            <span
+              ><i class="fa-solid fa-heart" style="color: #eecbff"></i
+            ></span>
+            <h4>Roses & health</h4>
+            <p>
+              Flowers are useful in healing people from symptoms of
+              psychological disorders such as depression, anxiety, stress, and
+              psychological, nervous, and mental exhaustion.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="about__image">
+        <img src="img/download (2).jfif" alt="img" />
+      </div>
+    </section>
+    <section class="flower__container" id="bouquet">
+      <div class="flower__grid__top">
+        <img src="img/bou1.jfif" alt="flower" />
+        <img src="img/bou2.jfif" alt="flower" />
+        <img src="img/bou3.jfif" alt="flower" />
+        <div class="flower__content">
+          <h2 class="section__header">Flower Bouquet</h2>
+          <p class="section__subheader">
+            You give flowers on happy occasions to those you love
+          </p>
+          <button class="btn">see more</button>
+        </div>
+      </div>
+      <div class="flower__grid__bottom">
+        <img src="img/bou4.jfif" alt="flower" />
+        <img src="img/bou5.jfif" alt="flower" />
+        <img src="img/bou6.jfif" alt="flower" />
+        <img src="img/bou7.jfif" alt="flower" />
+      </div>
+    </section>
+    <section class="section__container type__container" id="shop">
+      <div class="type__content">
+        <h2 class="section__header">Information about the type and price</h2>
+        <p class="section__subheader">
+          These types can be used to make a bouquet of flowers
+        </p>
+        <button class="btn">see more</button>
+      </div>
+      <div class="type__image">
+        <div class="type__image__content">
+          <img
+            src="img/rose-clip-art-red-rose-png-clipart-2750aa7b2c92f6fa05d7cca88a16e9c7.png"
+            alt="type"
+          />
+          <p>red rose</p>
+          <h4>$5.00</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-plus" style="color: #d5a9db"></i></a>
+      </div>
+      <div class="type__image">
+        <div class="type__image__content">
+          <img
+            src="img/pink-flowers-rose-rose-dfff6dcbd1d49e24251331e3ace0306c.png"
+            alt="type"
+          />
+          <p>pink rose</p>
+          <h4>$6.00</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-plus" style="color: #d5a9db"></i></a>
+      </div>
+      <div class="type__image">
+        <div class="type__image__content">
+          <img
+            src="img/rose-white-clip-art-beautiful-white-rose-png-image-a4f8aca17161cedc40d6c9e06bbf4689.png"
+            alt="type"
+          />
+          <p>white rose</p>
+          <h4>$8.00</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-plus" style="color: #d5a9db"></i></a>
+      </div>
+    </section>
+    <section class="section__container review__container" id="review">
+      <h2 class="section__header">Reviews</h2>
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <div class="review__card">
+        <p>
+          This was the first time ordering from this florist and I was
+          completely satisfied. I had requested the flowers be delivered
+          between 5PM - 7PM and at 5:20PM I received an email stating they
+          were on their way and within minutes the flowers were delivered.
+          The arrangement looks pretty close to the one in the photo and
+          the flowers appear fresh. Great service.
+        </p>
+        <img src="img/rev1.jfif" alt="review" />
+        <h4>Lee Mary</h4>
+        <h5>She bought two bouquets of roses</h5>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="review__card">
+        <p>
+          I ordered a bouquet of flowers, from my office in Dublin, to be
+          delivered to a very special someone in downtown SF. To say she
+          was pleased with the arrangement would be an understatement.
+          Thank you so much for the wonderful service.
+        </p>
+        <img src="img/rev2.jfif" alt="review" />
+        <h4>Oliver Taylor</h4>
+        <h5>He bought a group of roses</h5>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="review__card">
+        <p>
+          It was my friend's special birthday and I ordered flowers from
+          your website from across the country that morning. She received
+          it first thing that morning and it was lovely. You made my
+          friend's birthday great. Thanks so much for the wonderful
+          customer service and flower arrangement
+        </p>
+        <img src="img/rev3.jfif" alt="review" />
+        <h4>Jake Roberts</h4>
+        <h5>He bought a bouquet of flowers for his friend's birthday</h5>
+      </div>
+    </div>
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+<footer>
+  <div class="footer-content">
+    <h3>Flower Shop</h3>
+    <p>We are always here to help and always make you feel happy</p>
+    <ul class="socials">
+      <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+    </ul>
+  </div>
+  <div class="footer-bottom">
+    <p>Copyright &copy; || Rabha Gharib</p>
+  </div>
+</footer>
+
+    <!--js file link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.5/scrollreveal.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
